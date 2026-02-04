@@ -22,8 +22,8 @@ const Register: React.FC = () => {
 
     alert("Registration successful!");
     navigate("/");
-  } catch (error: any) {
-    alert(error.message);
+  } catch (error) {
+    alert("Registration failed: " + (error as Error).message);
   }
 };
 
