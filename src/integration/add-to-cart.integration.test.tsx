@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../components/NavBar";
 import ProductCard from "../components/ProductCard";
 import { renderWithProviders } from "../test-utils";

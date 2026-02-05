@@ -1,6 +1,5 @@
-import React from "react";
 import NavBar from "./NavBar";
-import { renderWithProviders, makeStore } from "../test-utils";
+import { renderWithProviders } from "../test-utils";
 
 jest.mock("firebase/auth", () => ({
     signOut: jest.fn()
