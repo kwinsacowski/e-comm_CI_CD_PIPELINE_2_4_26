@@ -66,6 +66,10 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=
 VITE_FIREBASE_APP_ID=
 
 -----
+## Live Demo
+Deployed on Vercel: https://ecommcicd2426.vercel.app/
+
+-----
 
 ▶️ Running the App
 npm install
