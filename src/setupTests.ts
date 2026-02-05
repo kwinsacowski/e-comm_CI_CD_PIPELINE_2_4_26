@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import "whatwg-fetch";
 
-import { TextEncoder, TextDecoder } from "util";
+import { TextEncoder, TextDecoder } from "node:util";
 
 if (!globalThis.TextEncoder) {
   globalThis.TextEncoder = TextEncoder as unknown as typeof globalThis.TextEncoder;
